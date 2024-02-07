@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { projects } from "../api/projects.js";
 import { knowledges } from "../api/tecnologies.js";
+import '../App.css'
 
 const SectionProjects = () => {
 
@@ -30,7 +31,7 @@ const SectionProjects = () => {
                 ))}
 
             </div>
-            <div className="d-flex flex-wrap justify-content-between">
+            <div className="grid-content">
                 {state.map((item, index) =>
                 (
                     <div key={index} className="card mb-5 shadow-sm" style={{ width: "20rem" }}>

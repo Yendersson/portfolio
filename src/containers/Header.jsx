@@ -4,7 +4,7 @@ const Header = () => {
         <header className="bg-body-tertiary">
 
             <nav id="navbar-example2" className="container navbar bg-body-tertiary px-3 mb-3">
-                <a className="navbar-brand" href="#">Navbar</a>
+                <a className="navbar-brand" href="#">Yenderson Colmenares</a>
                 <ul className="nav nav-pills">
                     <li className="nav-item">
                         <a className="nav-link" href="#firstSection">Sobre mi</a>

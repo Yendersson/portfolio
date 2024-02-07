@@ -7,7 +7,7 @@ import whatsapp from 'bootstrap-icons/icons/whatsapp.svg'
 const Footer = () => {
     return (
         <footer>
-            <div className="contnainer d-flex justify-content-center">
+            <div className="contnainer d-flex justify-content-space-between">
                 <div>
                     <a href="https://www.linkedin.com/in/yenderson-colmenares-rodriguez/">
                         <img src={linkedin} alt="" />
