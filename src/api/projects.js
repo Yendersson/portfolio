@@ -10,7 +10,7 @@ export const projects = [
     {
         id:'1',
         name: "NewCommerce Advanced",
-        summary:"Tienda Ecommerce con administrador, metodos de pago, implementacion con plantillas excel, servicio de mensajeria",
+        summary:"Tienda Ecommerce con un sistema de gestion, metodos de pago, import y export de plantillas excel con datos, servicio de mensajeria por mail",
         pictures:ncSystem,
         tecnologies:['React Js', 'Redux', 'Java', 'Spring-Boot', 'MySQL', 'Bootstrap'],
         tag:['Full-Stack', 'BackEnd', "FrontEnd"],

@@ -69,6 +69,11 @@ export const knowledges = [
         picture:"",
         icon:'',
     },
+    {
+        name:"Redux",
+        picture:"",
+        icon:'',
+    },
     
 
 ];
