@@ -10,8 +10,10 @@ function App() {
 
   return (
     <>
+    <div className='bg-section-1'>
       <Header/>
       <SectionOne/>
+    </div>
       <SectionTwo/>
       <SectionProjects/>
       <Footer/>

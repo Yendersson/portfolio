@@ -8,7 +8,7 @@ import 'swiper/css/bundle';
 const SectionTwo = () => {
 
     return (
-        <div className="container container mb-5 mt-5" id='secondSection'>
+        <div className="container container" id='secondSection'>
             <h2>Tecnologias</h2>
             <Swiper className='mb-5 mt-5' spaceBetween={30} slidesPerView={8} speed={1000} autoplay={{ delay: 400 }} loop={true} pagination={{ clickable: true }} scrollbar={{ draggable: true }} modules={[Autoplay]}>
                 {knowledges.map((item, index) => (

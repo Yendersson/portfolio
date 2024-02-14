@@ -1,4 +1,4 @@
-import avatar from '../assets/Avatar.png'
+import avatar from '../assets/Avatar2.png'
 import cv from '../files/CV-Yenderson_Colmenares.pdf'
 const SectionOne = () => {
 
@@ -26,22 +26,22 @@ const SectionOne = () => {
     }
 
     return (
-        <div className="container container mb-5 mt-5" id="firstSection">
-            <div className="row align-items-center">
-                <div className="col">
-                    <img className="img-fluid" src={avatar} alt="" />
-                </div>
-                <div className="col">
-                    <h2>👋 Hola mi nombre es Yenderson Colmenares</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis tempore ipsa numquam debitis possimus quia quo nihil. Veniam autem perspiciatis, corrupti cupiditate provident nesciunt repellat expedita, dolore quibusdam voluptatem omnis?
-                    </p>
-                    <button className='btn btn-danger' onClick={downloadCV}>Descargar Cv</button>
-                    
+            <div className="container container" id="firstSection">
+                <div className="row align-items-center">
+                    <div className="col">
+                        <img className="img-fluid" src={avatar} alt="" />
+                    </div>
+                    <div className="col presentation">
+                        <h2>👋 Hola, <br /> Soy Yenderson <br /> Full-Stack Developer</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis tempore ipsa numquam debitis possimus quia quo nihil. Veniam autem perspiciatis, corrupti cupiditate provident nesciunt repellat expedita, dolore quibusdam voluptatem omnis?
+                        </p>
+                        <button className='btn' onClick={downloadCV}>DESCARGAR CV</button>
+                        
 
+                    </div>
                 </div>
             </div>
-        </div>
     )
 
 }

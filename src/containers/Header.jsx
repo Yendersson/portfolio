@@ -1,10 +1,10 @@
 
 const Header = () => {
     return (
-        <header className="bg-body-tertiary">
+        <header >
 
-            <nav id="navbar-example2" className="container navbar bg-body-tertiary px-3 mb-3">
-                <a className="navbar-brand" href="#">Yenderson Colmenares</a>
+            <nav id="navbar-example2" className="container navbar px-3 mb-3">
+                <h2><a className="navbar-brand" href="/#">Yenderson Colmenares</a></h2>
                 <ul className="nav nav-pills">
                     <li className="nav-item">
                         <a className="nav-link" href="#firstSection">Sobre mi</a>
