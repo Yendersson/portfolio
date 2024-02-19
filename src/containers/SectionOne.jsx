@@ -26,7 +26,7 @@ const SectionOne = () => {
     }
 
     return (
-            <div className="container container" id="firstSection">
+            <div className="container container" id="about">
                 <div className="row align-items-center">
                     <div className="col text-center">
                         <img className="img-fluid" src={avatar} alt="" />
