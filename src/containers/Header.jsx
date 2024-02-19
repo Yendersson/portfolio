@@ -3,7 +3,12 @@ const Header = () => {
     return (
         <header >
 
-            <nav id="navbar-example2" className="container navbar px-3 mb-3">
+            <nav className="navbar-expand-lg container navbar px-3 mb-3">
+            <div className="container-fluid">
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
+                <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
                 <h2><a className="navbar-brand" href="/#">Yenderson Colmenares</a></h2>
                 <ul className="nav nav-pills">
                     <li className="nav-item">
@@ -15,19 +20,9 @@ const Header = () => {
                     <li className="nav-item">
                         <a className="nav-link" href="#thirdSection">Proyectos</a>
                     </li>
-                    <li className="nav-item dropdown">
-                        <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                            aria-expanded="false">Dropdown</a>
-                        <ul className="dropdown-menu">
-                            <li><a className="dropdown-item" href="#scrollspyHeading3">Third</a></li>
-                            <li><a className="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
-                            <li>
-                                <hr className="dropdown-divider" />
-                            </li>
-                            <li><a className="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
-                        </ul>
-                    </li>
                 </ul>
+                </div>
+                </div>
             </nav>
         </header>
     )

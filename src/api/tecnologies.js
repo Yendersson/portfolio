@@ -55,11 +55,6 @@ export const knowledges = [
         icon:'',
     },
     {
-        name:"Selenium",
-        picture:"",
-        icon:'',
-    },
-    {
         name:"Java",
         picture:"",
         icon:'',
@@ -74,6 +69,4 @@ export const knowledges = [
         picture:"",
         icon:'',
     },
-    
-
 ];
