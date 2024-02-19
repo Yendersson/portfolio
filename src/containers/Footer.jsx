@@ -7,6 +7,21 @@ import whatsapp from 'bootstrap-icons/icons/whatsapp.svg'
 const Footer = () => {
     return (
         <footer>
+
+            <h2 className='text-center'>Yenderson Colmenares</h2>
+
+            <ul>
+                <li>
+                    <a href="#about">Sobre mi</a>
+                </li>
+                <li>
+                    <a href="#technologies">Tecnologias</a>
+                </li>
+                <li>
+                    <a href="#projects">Proyectos</a>
+                </li>
+            </ul>
+
             <div className="contnainer d-flex justify-content-space-between">
                 <div>
                     <a href="https://www.linkedin.com/in/yenderson-colmenares-rodriguez/">

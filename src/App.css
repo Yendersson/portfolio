@@ -185,10 +185,37 @@ footer img{
   width: 2em;
 }
 
+footer{
+  background-image: radial-gradient(ellipse at bottom,#1a68d3 5%,transparent 60%),linear-gradient(136deg,transparent,#71c7ee 290%),linear-gradient(115deg,#9d9af1,transparent 40%),linear-gradient(180deg,transparent 0,#1a68d3 70%),radial-gradient(ellipse at -70% -180%,transparent 80%,#71c7ee 0),radial-gradient(ellipse at bottom,#1a68d3 40%,transparent 80%),radial-gradient(ellipse at 5% 340%,transparent 80%,#bfc2f4 0);
+  color: white;
+}
+
 footer>div{
-  width: 30%;
+  width: 20%;
   margin: auto;
   justify-content: space-between;
+}
+
+footer i{
+  color: white;
+}
+
+footer ul {
+  width: 50%;
+  margin: 5rem auto;
+  display: flex;
+  text-align: center;
+  padding: 0;
+  justify-content: space-evenly;
+}
+
+footer ul li{
+  display: inline-block;  
+}
+
+footer li a{
+  color: white;
+  text-decoration: none;
 }
 
 .btn{
@@ -244,7 +271,16 @@ footer{
     padding: 5em;
 }
 @media (max-width: 500px) {
+  
+  .navbar-brand{
+    font-size: 1.2rem!important;
+    font-weight: 600;
+  }
 
+  .presentation p {
+    font-size: 1rem;
+  }
+  
 
   .row{
     flex-direction: column;
@@ -290,6 +326,23 @@ footer{
   .mobile{
     top: 15%;
   }
+
+  footer ul li {
+    margin-bottom: 5px;
+    display: block;
+  }
+
+  footer ul{
+    text-align: start;
+    display: block;
+    width: 80%;
+  }
+
+  footer>div{
+    width: 80%;
+  }
+
+  
 
 }
 
