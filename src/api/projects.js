@@ -12,7 +12,7 @@ export const projects = [
     {
         id:'1',
         name: "E-Commerce Advanced",
-        summary:"Tienda ecommerce con sistema de gestion, el proyecto ofrece roles, permisos, administracion de la pagina, productos, ventas etc. import y export de datos a traves de archivos excel o xml,notificaicon via email, metodo de pago con mercado pago. ",
+        summary:"Tienda ecommerce con sistema de gestión, el proyecto ofrece roles, permisos, administración de la página, productos, ventas etc. import y export de datos a través de archivos excel o xml, notificación vía email, método de pago con mercado pago. ",
         pictures:{
             mobile:ncMobile,
             desktop:ncSystem
@@ -27,7 +27,7 @@ export const projects = [
     {
         id: "6",
         name: "DolarHoy",
-        summary: "App informativa acerca de la tasa del dolar en tiempo real, inflacion actual y esperada, reservas internacionales, y evolucion del valor.",
+        summary: "App informativa acerca de la tasa del dólar en tiempo real, inflación actual y esperada, reservas internacionales, y evolución del valor.",
         pictures:{
             mobile:appDolar,
             desktop:null
@@ -43,7 +43,7 @@ export const projects = [
     {
         id:'2',
         name: "Mini Red Social",
-        summary:"Una App Hibrida simulando de los estandares basicos de una red social, la creacion de post junto a contenido multimedia de imagenes, comentar posts, login, registro, permisos.",
+        summary:"Una App Híbrida simulando de los estándares básicos de una red social, la creación de post junto a contenido multimedia de imágenes, comentar posts, login, registro, permisos.",
         pictures:{
             mobile:RSMobile,
             desktop:RedSocialLogo
@@ -59,7 +59,7 @@ export const projects = [
     {
         id: "7",
         name: "NewCommerce",
-        summary: "Un ecommerce caritativo, este ecommerce fue el proyecto final grupal del curso de insercion laboral con orientacion en programacion web full stack, al ser grupal mi principal funcion fue la elaboracion del backend mas adelante modifique el proyecto para que sea una app hibrida y poder ser instaladas para dispositivos android a traves de una apk.",
+        summary: "Proyecto grupal de ecommerce, ofrece autenticación, autorización, altas y bajas de usuario, transformado posteriormente en una app híbrida disponible para android utilizando una base de datos NOSQL para el almacenamiento de los datos.",
         pictures:{
             mobile:ncMobile,
             desktop:newCommerceLogo,
@@ -75,7 +75,7 @@ export const projects = [
     {
         id:'3',
         name: "To do list",
-        summary:"Una Clasica to do list app. Disponible tambien para android.",
+        summary:"Una Clásica lista de tareas. Disponible también para Android.",
         pictures:{
             mobile:ToDoListMobile,
             desktop:ToDoList
@@ -91,7 +91,7 @@ export const projects = [
     {
         id:'4',
         name: "Api rest de paises clasica",
-        summary:"Pagina informativa acerca de los paises del mundo con informacion basica de los mismos",
+        summary:"Página informativa acerca de los países del mundo con información básica de los mismos",
         pictures:{
             mobile:null,
             desktop:ApiPaises

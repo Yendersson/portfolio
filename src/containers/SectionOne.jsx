@@ -34,7 +34,7 @@ const SectionOne = () => {
                     <div className="col presentation">
                         <h2>👋 Hola, <br /> Soy Yenderson <br /> Full-Stack Developer</h2>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis tempore ipsa numquam debitis possimus quia quo nihil. Veniam autem perspiciatis, corrupti cupiditate provident nesciunt repellat expedita, dolore quibusdam voluptatem omnis?
+                            Me considero una persona autodidacta y con gran interés en la tecnología, me apasionan los desafíos, y la complejidad de los temas. Parte de mi conocimiento lo aprendí por mi cuenta, disfruto cada dia aprender mas acerca de las nuevas tecnologías, aunque también me divierte programar a la vieja escuela (sin frameworks); esta última me ha ayudado a comprender más a profundidad la programación, y descubrir nuevas soluciones.
                         </p>
                         <button className='btn' onClick={downloadCV}>DESCARGAR CV</button>
                         
