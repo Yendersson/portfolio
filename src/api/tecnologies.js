@@ -7,6 +7,10 @@ import mySqlLogo from "../assets/mySql.png";
 import expressLogo from "../assets/express.png";
 import mongoLogo from "../assets/mongoDB.png";
 import bootstraptLogo from "../assets/bootstrapt.png";
+import java from "../assets/java_icon.png";
+import spring from "../assets/spring.png";
+import redux from "../assets/redux.png";
+import css from "../assets/css.png";
 
 export const knowledges = [
     {
@@ -16,7 +20,7 @@ export const knowledges = [
     },
     {
         name:"CSS",
-        picture:"",
+        picture:css,
         icon:'',
     },
     {
@@ -56,17 +60,17 @@ export const knowledges = [
     },
     {
         name:"Java",
-        picture:"",
+        picture:java,
         icon:'',
     },
     {
         name:"Spring-Boot",
-        picture:"",
+        picture:spring,
         icon:'',
     },
     {
         name:"Redux",
-        picture:"",
+        picture:redux,
         icon:'',
     },
 ];

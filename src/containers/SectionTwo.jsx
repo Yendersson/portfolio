@@ -8,7 +8,7 @@ import 'swiper/css/bundle';
 const SectionTwo = () => {
 
     return (
-        <div className="container container" id='secondSection'>
+        <div className="container container" id='technologies'>
             <h2>Tecnologias</h2>
             <Swiper className='mb-5 mt-5' 
                 spaceBetween={30}

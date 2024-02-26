@@ -20,7 +20,7 @@ const SectionProjects = () => {
     useEffect(_ => { }, [state])
 
     return (
-        <div className="container mb-5 mt-5" id="thirdSection">
+        <div className="container mb-5 mt-5" id="projects">
             <h2>Proyectos</h2>
             
 
