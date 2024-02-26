@@ -7,6 +7,7 @@ import ToDoListMobile from "../assets/ToDoListMobile.png"
 import ApiPaises from "../assets/ApiPaises.png"
 import ncSystem from "../assets/ncSystem.png"
 import appDolar from "../assets/dolarApp.png"
+import IES from "../assets/I_E_S.png"
 
 export const projects = [
     {
@@ -55,6 +56,22 @@ export const projects = [
         github: "https://github.com/Yendersson/Frontend-Red_social",
         apk:"https://drive.google.com/file/d/1oROpM1oiuVSVys6KwnWLL2vrJsYoXJRI/view?usp=sharing",
         color:"gray"
+    },
+    {
+        id:'9',
+        name: "Excursiones y Actividades I.E.S La Rosaleda",
+        summary:"Portafolio de las actividades y excursiones del segundo año del Ciclo Superior de Asistencia a la Dirección del I.E.S La Rosaleda (España - Málaga)",
+        pictures:{
+            mobile:null,
+            desktop:IES
+        },
+        tecnologies:['React Js', 'Firebase', 'CSS'],
+        tag:["FrontEnd"],
+        content:'',
+        url:"https://excursioneslarosaleda.netlify.app/",
+        github: "https://github.com/Yendersson/CollageLaRosaleda",
+        apk:null,
+        color:"#ff8485"
     },
     {
         id: "7",
